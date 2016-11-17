@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE Department_data.csv
+APPEND INTO TABLE DEPARTMENT
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+TRAILING NULLCOLS(dname,dnumber,mgr_ssn,mgr_start_date DATE 'yyyy-mm-dd')

@@ -1,0 +1,23 @@
+--All india query
+SELECT T.Domain
+	,T.GLOBALRANK
+	,T.REFSUBNETS
+FROM MAJESTIC_TABLE T
+WHERE TLD LIKE 'in'
+order by GLOBALRANK;
+
+--query_top_domains
+SELECT T.DOMAIN
+FROM MAJESTIC_TABLE T
+WHERE T.REFSUBNETS > = 100000;
+
+--query_wikipedia.sql
+SELECT GLOBALRANK
+	,TDLLRANK
+FROM MAJESTIC_TABLE T
+WHERE T.Domain like 'wikipedia.org';
+
+SELECT T.Domain, GLOBALRANK
+	,TDLLRANK
+FROM MAJESTIC_TABLE T
+WHERE T.Domain like 'wikipedia.org';

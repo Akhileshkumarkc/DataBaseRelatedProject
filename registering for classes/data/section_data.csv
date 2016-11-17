@@ -1,0 +1,140 @@
+1,MATH1001,FALL,07,Doris Wilson
+2,MATH1001,FALL,07,Amy Smith
+3,MATH1001,FALL,07,Mrs. A. T. Whitecotton
+4,MATH1002,FALL,07,Geraldine Carpenter
+5,MATH1003,FALL,07,Edna Francis
+6,MATH2001,FALL,07,Sarah Norris
+7,MATH2002,FALL,07,Jennie Crigler
+8,MATH2003,FALL,07,Gladys Swon
+9,MATH2001,FALL,07,Ruth Carman
+10,MATH2002,FALL,07,Lela Pat Buckman
+11,MATH2003,FALL,07,Lida Gray Gibbs
+12,CS1001,FALL,07,Abigail Marlow
+13,CS1002,FALL,07,Sister Mary  Phelps
+14,CS1003,FALL,07,Sister M. Bernadette
+15,CS1004,FALL,07,Daisy Bridgford
+16,CS1005,FALL,07,Irene Ball
+17,CS1006,FALL,07,Mary Belle Greenwell
+18,CS1007,FALL,07,Wynona James
+19,CS1008,FALL,07,Mattie Slonaker
+20,CS1009,FALL,07,Doris Stuart
+21,CS1010,FALL,07,Florence Vanlandingham
+22,CS1011,FALL,07,Imogene Carpenter
+23,CS1001,FALL,07,Elizabeth Vaughn
+24,CS1002,FALL,07,Myrtle Lee Carman
+25,CS1003,FALL,07,Ruth Emmons
+26,CS1004,FALL,07,Eunice Smith
+27,CS1005,FALL,07,Irene Ball
+28,CS1006,FALL,07,Mary Belle Greenwell
+29,CS1007,FALL,07,Wynona James
+30,CS1008,FALL,07,Elizabeth Sherwood
+31,CS1009,FALL,07,Thelma Egbert
+32,CS1010,FALL,07,Frances Greeves
+33,CS1011,FALL,07,Moneaka Elam
+34,CS1001,FALL,07,Lucy Harshbarger
+35,CS1002,FALL,07,Mrs. Russell Elsberry
+36,CS1003,FALL,07,Mrs. Russell Elsberry
+37,CS1004,FALL,07,Mrs. Russell Elsberry
+38,CS1005,FALL,07,Marguerite Reynolds
+39,CS1006,FALL,07,Marguerite Reynolds
+40,CS1007,FALL,07,Marguerite Reynolds
+41,CS1008,FALL,07,Marguerite Reynolds
+42,CS1009,FALL,07,Lela Dickey
+43,CS1010,FALL,07,Lela Dickey
+44,CS1011,FALL,07,Lela Dickey
+45,CS2001,FALL,07,Olivia Mitchell
+46,CS2002,FALL,07,Olivia Mitchell
+47,CS2003,FALL,07,Olivia Mitchell
+48,CS2001,FALL,07,Martha Flowers
+49,CS2002,FALL,07,Martha Flowers
+50,CS2003,FALL,07,Martha Flowers
+51,Bio1001,FALL,07,Ruby Partin
+52,Bio1002,FALL,07,Ruby Partin
+53,Bio1003,FALL,07,Ruby Partin
+54,Bio1004,FALL,07,Nannie Hopson
+55,Bio1005,FALL,07,Nannie Hopson
+56,Bio1001,FALL,07,Nannie Hopson
+57,Bio1002,FALL,07,Anne Kemper
+58,Bio1003,FALL,07,Anne Kemper
+59,Bio1004,FALL,07,Anne Kemper
+60,Bio1005,FALL,07,Anne Kemper
+61,Bio1001,FALL,07,Anne Kemper
+62,Bio1002,FALL,07,Ruth Louise Williams
+63,Bio1003,FALL,07,Ruth Louise Williams
+64,Bio1004,FALL,07,Ethel Van Doehren
+65,Bio1005,FALL,07,Ethel Van Doehren
+66,Bio2001,FALL,07,Betty Williams
+67,Bio2002,FALL,07,Betty Williams
+68,Bio2001,FALL,07,Lotus Jacob
+69,Bio2002,FALL,07,Lotus Jacob
+70,Bio3001,FALL,07,Lotus Jacob
+71,MATH1001,Spring,08,Doris Wilson
+72,MATH1001,Spring,08,Amy Smith
+73,MATH1001,Spring,08,Mrs. A. T. Whitecotton
+74,MATH1002,Spring,08,Geraldine Carpenter
+75,MATH1003,Spring,08,Edna Francis
+76,MATH2001,Spring,08,Sarah Norris
+77,MATH2002,Spring,08,Jennie Crigler
+78,MATH2003,Spring,08,Gladys Swon
+79,MATH2001,Spring,08,Ruth Carman
+80,MATH2002,Spring,08,Lela Pat Buckman
+81,MATH2003,Spring,08,Lida Gray Gibbs
+82,CS1001,Spring,08,Abigail Marlow
+83,CS1002,Spring,08,Sister Mary  Phelps
+84,CS1003,Spring,08,Sister M. Bernadette
+85,CS1004,Spring,08,Daisy Bridgford
+86,CS1005,Spring,08,Irene Ball
+87,CS1006,Spring,08,Mary Belle Greenwell
+88,CS1007,Spring,08,Wynona James
+89,CS1008,Spring,08,Mattie Slonaker
+90,CS1009,Spring,08,Doris Stuart
+91,CS1010,Spring,08,Florence Vanlandingham
+92,CS1011,Spring,08,Imogene Carpenter
+93,CS1001,Spring,08,Elizabeth Vaughn
+94,CS1002,Spring,08,Myrtle Lee Carman
+95,CS1003,Spring,08,Ruth Emmons
+96,CS1004,Spring,08,Eunice Smith
+97,CS1005,Spring,08,Irene Ball
+98,CS1006,Spring,08,Mary Belle Greenwell
+99,CS1007,Spring,08,Wynona James
+100,CS1008,Spring,08,Elizabeth Sherwood
+101,CS1009,Spring,08,Thelma Egbert
+102,CS1010,Spring,08,Frances Greeves
+103,CS1011,Spring,08,Moneaka Elam
+104,CS1001,Spring,08,Lucy Harshbarger
+105,CS1002,Spring,08,Mrs. Russell Elsberry
+106,CS1003,Spring,08,Mrs. Russell Elsberry
+107,CS1004,Spring,08,Mrs. Russell Elsberry
+108,CS1005,Spring,08,Marguerite Reynolds
+109,CS1006,Spring,08,Marguerite Reynolds
+110,CS1007,Spring,08,Marguerite Reynolds
+111,CS1008,Spring,08,Marguerite Reynolds
+112,CS1009,Spring,08,Lela Dickey
+113,CS1010,Spring,08,Lela Dickey
+114,CS1011,Spring,08,Lela Dickey
+115,CS2001,Spring,08,Olivia Mitchell
+116,CS2002,Spring,08,Olivia Mitchell
+117,CS2003,Spring,08,Olivia Mitchell
+118,CS2001,Spring,08,Martha Flowers
+119,CS2002,Spring,08,Martha Flowers
+120,CS2003,Spring,08,Martha Flowers
+121,Bio1001,Spring,08,Ruby Partin
+122,Bio1002,Spring,08,Ruby Partin
+123,Bio1003,Spring,08,Ruby Partin
+124,Bio1004,Spring,08,Nannie Hopson
+125,Bio1005,Spring,08,Nannie Hopson
+126,Bio1001,Spring,08,Nannie Hopson
+127,Bio1002,Spring,08,Anne Kemper
+128,Bio1003,Spring,08,Anne Kemper
+129,Bio1004,Spring,08,Anne Kemper
+130,Bio1005,Spring,08,Anne Kemper
+131,Bio1001,Spring,08,Anne Kemper
+132,Bio1002,Spring,08,Ruth Louise Williams
+133,Bio1003,Spring,08,Ruth Louise Williams
+134,Bio1004,Spring,08,Ethel Van Doehren
+135,Bio1005,Spring,08,Ethel Van Doehren
+136,Bio2001,Spring,08,Betty Williams
+137,Bio2002,Spring,08,Betty Williams
+138,Bio2001,Spring,08,Lotus Jacob
+139,Bio2002,Spring,08,Lotus Jacob
+140,Bio3001,Spring,08,Lotus Jacob

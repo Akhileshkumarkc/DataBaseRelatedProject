@@ -1,0 +1,1 @@
+time curl http://csgrads1.utdallas.edu:5210/tld_search_get_result?tld_name='in'&Max_limit='100'

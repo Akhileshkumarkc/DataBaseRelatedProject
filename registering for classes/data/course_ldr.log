@@ -1,0 +1,135 @@
+
+SQL*Loader: Release 12.1.0.1.0 - Production on Sun Oct 30 22:07:22 2016
+
+Copyright (c) 1982, 2013, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   course_ldr.ctl
+Data File:      course_data.csv
+  Bad File:     course_data.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table COURSE, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+COURSE_NAME                         FIRST     *   ,  O(") CHARACTER            
+COURSE_NUMBER                        NEXT     *   ,  O(") CHARACTER            
+CREDIT_HOURS                         NEXT     *   ,  O(") CHARACTER            
+DEPARTMENT                           NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 2: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 3: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 4: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 5: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 6: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 7: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 8: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 9: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 10: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 11: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 12: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 13: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 14: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 15: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 16: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 17: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 18: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 19: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 20: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 21: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 22: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 23: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 24: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 25: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 26: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 27: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+Record 28: Rejected - Error on table COURSE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081885) violated
+
+
+Table COURSE:
+  0 Rows successfully loaded.
+  28 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  66048 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            28
+Total logical records rejected:        28
+Total logical records discarded:        0
+
+Run began on Sun Oct 30 22:07:22 2016
+Run ended on Sun Oct 30 22:07:22 2016
+
+Elapsed time was:     00:00:00.22
+CPU time was:         00:00:00.00

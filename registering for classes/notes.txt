@@ -1,0 +1,130 @@
+Atleast 3 Department.(CS,Math,Bio)
+
+Atleast 3 department - CS ,Math , Biology.
+
+CS
+Math
+Biology
+
+30 Students.
+
+Drucilla Haverty
+Jocelyn Scoville
+Weldon Wrobel
+Ariel Cockett
+Myrna Retzlaff
+Lionel Craney
+Reggie Keena
+Carmel Gorelick
+Lavonna Danley
+Peggie Rosati
+Verona Wetmore
+Ardith Brainard
+Sheryll Raiford
+Apolonia Lirette
+Charity Noblin
+Aurelio Keesee
+Rudy Gorka
+Ardell Sawyers
+Yon Bosley
+Caterina Arras
+Paulette Liming
+Wilmer Benzel
+Dollie Matheny
+Mason Ishikawa
+Jolene Colley
+Arvilla Triplett
+Delmy Morrill
+Genna Cripe
+Rich Reichenbach
+Erich Solum
+
+20 Courses.
+
+Maths.
+
+1 Engineering Maths
+2 Calculus
+3 Discrete Maths
+4 Fuzzy logic
+5 Probability Theory
+6 Statistics
+
+Computer Science
+
+7 Algorithm and Design.
+8 Computer Networks
+9 SW DEFINED NETWORK
+10 Database Design
+11 Statistical Methods for Data Science
+12 Web Programming Languages
+13 Semantic Web
+14 Natural Language Processing
+15 Machine Learning
+16 Information Retrieval
+17 Human Computer Interactions
+18 Big Data Management and Analytics
+19 Artificial Intelligence
+20 Introduction to Cryptography
+
+
+Biology.
+21 Basis of Evolution
+22 Applied Bioinformatics 
+23 Molecular Biology
+24 Quantitative Biology
+25 RNA World
+26 Microbial Physiology
+27 Proteomics
+28 Genes to Genomes
+
+PREREQ:
+-----------------------------
+FL => PT =>MATH2002,MATH1003
+STATISTICS => EM, CALCULUS=>MATH2003- MATH1001,MATH1002
+DMS => ENGINEERING MATHS => =>MATH2001 - MATH1001 
+-----------------------
+BDMA => DD CS2003 => CS1003
+BDI => DD  CS2002 => CS1003
+SDN => CN CS2001 => CS1002
+-------------------
+22 => 21. Bio2001 => Bio1001
+24 => 23. Bio2002 => Bio1002
+25=> 24.  Bio3001 => Bio2002
+==============================
+PRE REQ: (section details)
+=========================
+"MATH2002"(7,10),"MATH1003"(5)
+"MATH2003"(11,8),"MATH1001"(1,2,3)
+"MATH2003"(11,8),"MATH1002"(4)
+"MATH2001"(9,6),"MATH1001"(1,2,3)
+"CS2003","CS1003"
+"CS2002","CS1003"
+"CS2001","CS1002"
+"Bio2001","Bio1001"
+"Bio2002","Bio1002"
+"Bio3001","Bio2002"
+========================
+Fall 2006.
+3 section for each courses for 1 level
+2 section for each courses for 2 level
+1 section for 3 level
+Spring 2007.
+3 section for each courses for 1 level
+70
+some Random teachers,
+All of the courses are available in that every sem.
+
+Student 
+1 to 5 are maths.
+5 to 10 are comp
+10 to 15 are bio.
+15 to 30 are new.
+====================================
+commands to run:
+
+sqlldr CONTROL =student_ldr.ctl userid=axk167131/axk167131
+sqlldr CONTROL =course_ldr.ctl userid=axk167131/axk167131
+sqlldr CONTROL =section_ldr.ctl userid=axk167131/axk167131
+sqlldr CONTROL =grade_report_ldr.ctl userid=axk167131/axk167131
+sqlldr CONTROL =prerequisite_ldr.ctl userid=axk167131/axk167131

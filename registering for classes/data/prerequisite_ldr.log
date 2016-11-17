@@ -1,0 +1,79 @@
+
+SQL*Loader: Release 12.1.0.1.0 - Production on Sun Oct 30 22:07:23 2016
+
+Copyright (c) 1982, 2013, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   prerequisite_ldr.ctl
+Data File:      prereq_data.csv
+  Bad File:     prereq_data.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table PREREQUISITE, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+COURSE_NUMBER                       FIRST     *   ,  O(") CHARACTER            
+PREREQUISITE_NUMBER                  NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table PREREQUISITE, column COURSE_NUMBER.
+ORA-12899: value too large for column "AXK167131"."PREREQUISITE"."COURSE_NUMBER" (actual: 13, maximum: 10)
+
+Record 2: Rejected - Error on table PREREQUISITE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081888) violated
+
+Record 3: Rejected - Error on table PREREQUISITE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081888) violated
+
+Record 4: Rejected - Error on table PREREQUISITE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081888) violated
+
+Record 5: Rejected - Error on table PREREQUISITE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081888) violated
+
+Record 6: Rejected - Error on table PREREQUISITE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081888) violated
+
+Record 7: Rejected - Error on table PREREQUISITE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081888) violated
+
+Record 8: Rejected - Error on table PREREQUISITE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081888) violated
+
+Record 9: Rejected - Error on table PREREQUISITE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081888) violated
+
+Record 10: Rejected - Error on table PREREQUISITE.
+ORA-00001: unique constraint (AXK167131.SYS_C0081888) violated
+
+
+Table PREREQUISITE:
+  0 Rows successfully loaded.
+  10 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  33024 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            10
+Total logical records rejected:        10
+Total logical records discarded:        0
+
+Run began on Sun Oct 30 22:07:23 2016
+Run ended on Sun Oct 30 22:07:23 2016
+
+Elapsed time was:     00:00:00.26
+CPU time was:         00:00:00.01

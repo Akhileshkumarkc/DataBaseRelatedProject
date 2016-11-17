@@ -1,0 +1,62 @@
+
+SQL*Loader: Release 12.1.0.1.0 - Production on Sun Nov 13 18:08:27 2016
+
+Copyright (c) 1982, 2013, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   majestic_data_loader.ctl
+Data File:      majestic_million.csv
+  Bad File:     majestic_million.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table MAJESTIC_TABLE, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GLOBALRANK                          FIRST     *   ,  O(") CHARACTER            
+TDLLRANK                             NEXT     *   ,  O(") CHARACTER            
+DOMAIN                               NEXT     *   ,  O(") CHARACTER            
+TLD                                  NEXT     *   ,  O(") CHARACTER            
+REFSUBNETS                           NEXT     *   ,  O(") CHARACTER            
+REFIPS                               NEXT     *   ,  O(") CHARACTER            
+IDN_DOMAIN                           NEXT     *   ,  O(") CHARACTER            
+IDN_TLD                              NEXT     *   ,  O(") CHARACTER            
+PREVGLOBALRANK                       NEXT     *   ,  O(") CHARACTER            
+PREVTLDRANK                          NEXT     *   ,  O(") CHARACTER            
+PREVREFSUBNETS                       NEXT     *   ,  O(") CHARACTER            
+PREVREFIPS                           NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table MAJESTIC_TABLE, column GLOBALRANK.
+ORA-01722: invalid number
+
+
+Table MAJESTIC_TABLE:
+  1000000 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 198144 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:       1000001
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Sun Nov 13 18:08:27 2016
+Run ended on Sun Nov 13 18:08:45 2016
+
+Elapsed time was:     00:00:17.85
+CPU time was:         00:00:03.57

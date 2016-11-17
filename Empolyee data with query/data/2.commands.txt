@@ -1,0 +1,5 @@
+SQLLDR CONTROL =employee_dataloader.ctl userid=system/abc123
+SQLLDR CONTROL =DepartmentDataloader.ctl userid=system/abc123
+SQLLDR CONTROL =dependentloader.ctl userid=system/abc123
+SQLLDR CONTROL =Project_dataloader.ctl userid=system/abc123
+SQLLDR CONTROL =works_ondataloader.ctl userid=system/abc123

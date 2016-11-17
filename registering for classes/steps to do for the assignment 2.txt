@@ -1,0 +1,65 @@
+$ java p1
+// take the inputs for student, semester , year.
+Student Number: 1234
+Semester: Fall
+Year: 2005
+
+Main Menu 
+
+(1) Add a class 
+
+Enter your choice: 1
+Course Number: CSC 1010
+Section: 2
+Class Added
+
+Step 1(optional) List the class available for enrollement for him.
+
+step 2 ask him for course, section.
+
+step 3 validate if the course or section is present?
+
+step 4 validate if the course section match.
+
+Step 5 validate if the course pre req is met.
+
+Step 6 validate if the course is already reg.
+
+step 7 validate if section belongs to "spring 2008".
+
+Step 8 validate if Max class per sem.	
+
+walmart.
+(2) Drop a class 
+
+Enter your choice: 2
+Course Number: CSC 1010
+Section: 2
+Class dropped
+
+Step 1(optional) List the class  enrollement for him.
+
+step 2 ask him for course, section.
+
+step 3 validate if the course or section is present?
+
+step 4 validate if the course section match.
+
+Step 5 validate if the course is already reg.
+
+step 6 validate if section belongs to "spring 2007".
+
+Step 7 validate if course is already enrolled.
+
+
+
+(3) See my Schedule.
+
+Enter your choice: 3
+Your current schedule is: MATH 2010 Section 1, Calculus
+I, Instructor: Jones
+
+step 1 : list down all the classes that he is currently enrolled.
+
+(4) Exit 
+
